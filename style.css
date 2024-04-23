@@ -1,0 +1,30 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+html {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F9FAF8;
+    margin-left: 64px;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #E5E7EB
+}
