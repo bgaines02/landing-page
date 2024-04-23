@@ -1,8 +1,5 @@
 * {
     font-family: Roboto, sans-serif;
-}
-
-html {
     background-color: #1F2937;
 }
 
@@ -10,21 +7,34 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 8px;
 }
 
 .logo {
     color: #F9FAF8;
-    margin-left: 64px;
+    font-size: 24px;
+    margin-left: 128px;
+    font-weight: bold;
 }
 
-
+.header.links-right {
+        display:flex;
+        color: #E5E7EB;
+}
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 24px;
+    margin-right: 128px;
 }
 
 a {
     text-decoration: none;
-    text-decoration-color: none;
-    color: #E5E7EB
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo, ul {
+    margin-bottom: 116px;
 }
