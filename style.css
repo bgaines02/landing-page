@@ -39,9 +39,17 @@ a {
     margin-bottom: 116px;
 }
 
+.body1 {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    margin-left: 250px;
+    width: 25%;
+}
+
 .awesome {
     display: flex;
-    flex-wrap: wrap;
+    text-wrap: wrap;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -50,22 +58,31 @@ a {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 25px 0;
 }
 
-.body1 {
+.signup {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.placeholder-parent {
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 250px;
-    float:left;
 }
 
 .placeholder-box {
-    float: right;
-    width: 600px;
-    height: 50px;
-    padding: 10px;
+    display: flex;
     border: 5px solid gray;
     margin-right: 250px;
+    background-color: gray;
+    /* text-align: center; */
+    color: white;
+    width: 50%;
 }
